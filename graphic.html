@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype | blog</title>
+    <meta name="description"
+        content="Front-end Web Developers, Logo Designers & Templates Designers with a passion for making unique and vivid Projects. Prototyped 3 Commercial websites. looking forward to opportunities with passion & curiosity.">
+    <meta name="keywords"
+        content="we, thinc, solutions, pranay, kumar, varun, nirvan, reddy, front, end , web, developers, logo, templates,designers">
+    <meta name="author" content="We thinc solutions">
+    <meta name="author" content="Ravula Pranay Kumar Reddy">
+    <meta name="author" content="Bokka Varun Reddy">
+    <meta name="author" content="Bokka Nirvan Reddy">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://wethinc.in/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://wethinc.in/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://wethinc.in/favicon-16x16.png">
+    <link rel="icon" href="final logo.PNG">
+    <link rel="stylesheet" href="mixed stylesheet.css">
+    <script src="https://kit.fontawesome.com/b8be333c62.js" crossorigin="anonymous" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function myFunction() {
+            $("#topcloseicon").toggleClass("change");
+            $("#myNav").toggleClass("nav-open");
+        }
+    </script>
+    <script>
+        function validateform() {
+            var name = document.contactform.name.value;
+            var subject = document.contactform.subject.value;
+            var mail = document.contactform.mail.value;
+            var atposition = mail.indexOf("@");
+            var dotposition = mail.lastIndexOf(".");
+
+            if (name == null || name == " ") {
+                alert("This Field can't be blank");
+                return false;
+            } else if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= x.length) {
+                alert("Please enter a valid e-mail address");
+                return false;
+            } else if (subject == null || subject == "") {
+                alert("This Field can't be blank");
+                return false;
+            }
+        }
+    </script>
+
+    <style>
+        .intern-form {
+            width: 90%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="screen">
+        <main>
+            <div class="matter-main">
+                <div class="blog-box2 intern-form">
+                    <div>
+                        <p class="code">&#60;h1&#62;</p>
+                        <div class="matter-head">
+                            <h3 class="content-h3 cpink">Graphic Designer Intern Application</h3>
+                            <p class="code inline">&#60;/h1&#62;</p>
+                        </div>
+                        <br>
+                        <div>
+                            <p class="code">&#60;h2&#62;</p>
+                            <p class="content-p2 tebold cblue">
+                                Job Description :
+                            </p>
+                            <br>
+                            <p class="content-p2 cwhite3">
+                                We are seeking a talented Graphic Designer to join our team. The successful candidate
+                                will be responsible for creating visually appealing and effective graphics,
+                                illustrations, and other design elements that communicate our brand and message to our
+                                audience.
+                            </p><br><br>
+                            <p class="content-p2 tebold cblue">
+                                Key Responsibilities:
+                            </p>
+                            <br>
+                            <p class="content-p2 cwhite3">- Design and create graphics, illustrations, logos, and other
+                                design elements for a variety of mediums including print and digital.
+                                <br> - Collaborate with the marketing team to develop design concepts that effectively
+                                communicate our brand and message to our audience.
+                                <br> - Create visual designs that adhere to brand guidelines and standards.
+                                <br> - Produce and manage final artwork for print and digital media.
+                                <br> - Stay up-to-date with emerging trends in graphic design and apply them to improve
+                                design elements.
+                            </p><br><br>
+                            <p class="content-p2 tebold cblue">
+                                Education Qualification :
+                            </p>
+                            <br>
+                            <p class="content-p2 cwhite3">
+                                Should be pursuing Bachelor's degree in any field.
+                            </p><br><br>
+                            <p class="content-p2 tebold cblue">
+                                Primary Skills Requirement :
+                            </p>
+                            <br>
+                            <p class="content-p2 cwhite3">
+                                - Proven experience in graphic design with a strong portfolio showcasing various design
+                                projects.
+                                <br> - Proficient in design software such as Adobe Photoshop, or Figma.
+                                <br> - Familiarity with design principles such as color theory, typography, and
+                                composition.
+                                <br> - Strong analytical and problem-solving skills.
+                                <br> - Excellent communication and teamwork skills.
+                            </p><br><br>
+                            <p class="content-p2 tebold cblue">
+                                Secondary Skills Requirement : (not mandatory):
+                            </p>
+                            <br>
+                            <p class="content-p2 cwhite3">- Experience in designing for a variety of mediums including
+                                print and digital.
+                                <br> - Experience with motion graphics and video editing.
+                                <br> - Familiarity with UX design principles and best practices.
+                                <br> - Ability to work independently and manage multiple projects simultaneously
+                            </p><br><br>
+                            <p class="code inline">&#60;/h2&#62;</p>
+                            <br>
+                            <p class="code">&#60;form&#62;</p>
+                            <form name="contactform" autocomplete="off" action="https://formsubmit.co/team@wethinc.in"
+                                onsubmit="return validateform()" method="POST">
+                                <input type="hidden" name="_cc" value="wethinc3@gmail.com">
+                                <input class="form" type="text" id="fname" name="name" placeholder="Name" required>
+                                <input class="form" type="mail" id="fmail" name="E-mail" placeholder="E-mail" required>
+                                <input class="form" type="number" id="fname" name="Phonenumber"
+                                    placeholder="Phone Number" required>
+                                <input class="form" type="text" id="fmail" name="subject"
+                                    placeholder="What role you are applying for" required>
+                                <input class="form" type="text" id="fname" name="name"
+                                    placeholder="Time You can spend on this internship" required>
+                                <input class="form" name="Resume" id="fmail" type="file" accept="application/pdf"
+                                    placeholder="Upload Resume" required>
+                                <textarea class="form" id="fmessage" name="message"
+                                    placeholder="Explain in brief the kind of work / projects / internships you have done in past"
+                                    style="height:150px"></textarea>
+
+                                <div class="button">
+                                    <div class="layer"></div>
+                                    <div class="botdot"></div>
+                                    <input type="submit" value="Submit">
+                                </div>
+
+
+                                <input type="hidden" name="_next" value="https://wethinc.in">
+                                <input type="hidden" name="_subject" value="New submission on Wethinc!">
+                                <input type="hidden" name="_cc"
+                                    value="rpranayreddy40@gmail.com,bkkvarun24@gmail.com,nirvanreddy18@gmail.com">
+                                <input type="hidden" name="_template" value="table">
+                            </form>
+                            <p class="code">&#60;/form&#62;</p>
+                        </div>
+                    </div>
+                </div>
+        </main>
+    </div>
+
+
+</body>
